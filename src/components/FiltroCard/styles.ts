@@ -5,6 +5,7 @@ type Props = {
 }
 
 export const Card = styled.div<Props>`
+  width: 100%;
   padding: 8px;
   border: 1px solid ${(props) => (props.ativo ? '#1E90FF' : '#a1a1a1')};
   background-color: ${(props) => (props.ativo ? '#fff' : '#fcfcfc')};
